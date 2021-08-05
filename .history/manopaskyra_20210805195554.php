@@ -18,7 +18,7 @@ if(isset($_COOKIE['prisijungti']) && isset($_COOKIE['teises']))
     </form>';
 
     if(isset($_GET["atsijungti"])) {
-        // echo "Paspaustas atsijungimo mygtukas";
+        echo "Paspaustas atsijungimo mygtukas";
         // o kaip istrinti sausainiuka?
         //funkcija kuri istrina sausainiuka - jos tiesiog nera
         //mes turime nustatyti jo galiojimo laika i praeiti
@@ -30,7 +30,7 @@ if(isset($_COOKIE['prisijungti']) && isset($_COOKIE['teises']))
     }
 
 } else {
-    header("Location: index.php");
+    echo "";
 }
 
 ?>
